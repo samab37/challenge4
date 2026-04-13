@@ -3,17 +3,53 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="screen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;700;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <div class="profile">
+    <div>
+      <img src="profile_pic.png" alt="DougTheWoodChuck selfie"/>
+    </div>
+    <div class="info">
+      <h1>@DougTheWoodChuck</h1>
+      <p>345 Followers | 251 Following</p>
+      <p><strong>UX Designer <br> Detroit, MI</strong></p>
+      <h2 class="h2bio">Bio</h2>
+      <p class="bio">Check out my awesome projects! Interested in my work, send me a
+            message or email to connect.</p>
+    </div>
+    <div class="follow">
+      <button>Follow</button>
+      <button>Message</button>
+    </div>
+  </div>
+
+  <main>
+    <div class="posts">
+      <h2>Posts</h2>
+      <img src="ExampleProject1.png" alt="Project 1"/>
+      <img src="ExampleProject2.png" alt="Project 2"/>
+    </div>
+    <div class="sidebar">
+      <div class="box">
+        <h2>Get in Touch</h2>
+        <p><strong>Email:</strong> doug1234@gmail.com</p>
+        <p><strong>Phone:</strong> 123-456-7890</p>
+      </div>
+      <div class="box">
+        <h2>Skills</h2>
+        <ul>
+          <li>User Research</li>
+          <li>Usability Testing</li>
+          <li>Wireframing</li>
+        </ul>
+      </div>
+    </div>
+  </main>
     <script src="index.js"></script>
   </body>
 </html>
